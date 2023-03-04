@@ -19,7 +19,7 @@ const UserCard = () => {
     return (
         <div className="card">
             <div className="imgBx">
-                <img className="card__img" src="/users/user1.png" alt="foto de un usuario" />
+                <img className="card__img" src={user.picture?.large} alt="foto de un usuario" />
             </div>
             <div className="card__content">
                 <div className="card__details">
